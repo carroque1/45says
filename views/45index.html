@@ -32,7 +32,16 @@
 </head>
 <body>
 
-    <div><nav style="color: black; text-align: center;"><p><a href="/signup">register</a></p></nav></div>
+    <!--<div><nav style="color: black; text-align: center;"><p><a href="/signup">register</a></p></nav></div>-->
+
+<header>
+    <div class="container-fluid m-2">
+        <div class="row">
+            <img id="nav-badge" class="svg" src="/images/badge.svg" alt="45 Says">
+        </div>
+    </div>
+</header>
+
 <div class="padded-multiline">
     <h2><span style="margin-left: 1.5%; box-shadow: 1px 1px 2px -1px rgba(0,0,0,0.35);">
         <span style="padding: 0; " id="strikeout">Very, Very Nice</span> Words <br> Speeches, and Interviews
@@ -40,20 +49,28 @@
     </h2>
 </div>
 
-<div class="row">
-    <div class="col-sm-12">
-            <div style="margin-top: 1.25%;" id="quote-box">
-                <h4 style="margin: 0"><span id="quote"></span><br/></h4>
-                <div style="margin: 8px 5px 0 0; float: right; display: inline-block;">
-                    <a href id="source"><br></a>
-                </div>    
-            </div>
-    </div><!--end container-->   
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+                <div id="quote-box">
+                    <h4 style="margin: 0"><span id="quote"></span><br/></h4>
+                    <div style="margin: 8px 5px 0 0; float: right; display: inline-block;">
+                        <a href id="source"><br></a>
+                    </div>    
+                </div>
+        </div><!--end container-->   
+    </div>
 </div>
 
-<div style="margin: 1% 0 1% 5%; " class="row">
-        <h5 style="letter-spacing: .5px;" class="col-sm-8"> TRANSCRIPTS</h5>
-        <h5 style="letter-spacing: .5px;" class="col-sm-4"> MOST COMMON WORDS & SENTIMENT</h5>
+<div class="container-fluid">
+    <div class="row ml-4">   
+            <div class="col-sm-6">
+                <h5> TRANSCRIPTS</h5>
+            </div>
+            <div class="col-sm-6">
+                <h5>MOST COMMON WORDS & SENTIMENT</h5>
+            </div>
+    </div>
 </div>
 
 <div class="container">
