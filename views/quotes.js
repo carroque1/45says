@@ -1,5 +1,5 @@
 window.onload=printQuote;
-var timer = window.setInterval(printQuote, 7500);
+var timer = window.setInterval(printQuote, 8000);
 var timerEnabled = true;
 
 //quote data
@@ -271,7 +271,7 @@ var timerEnabled = true;
 	    },
 	   	{
 	    	quote:"\"Your reputation is amazing. I will not let you [Alex Jones] down.\"",
-	    	source: "Infowars.com interview with Alex Jones, 2015",
+	    	source: "Infowars.com interview, 2015",
 	    	link: "http://www.cnn.com/2015/12/02/politics/donald-trump-praises-9-11-truther-alex-jones/index.html"
 	    },
 	   	{
@@ -350,7 +350,7 @@ var timerEnabled = true;
 	    	link: "http://time.com/3923128/donald-trump-announcement-speech/"
 		},
 		{
-			quote: "\"What a Crowd! What a turnout!\"",
+			quote: "\"What a crowd! What a turnout!\"",
 			source: "Hurricane Harvey visit (Corpus Christi, TX), 2017",
 	    	link: "https://www.youtube.com/watch?v=UmcV8v8iboE"
 		},
