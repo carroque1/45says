@@ -1,0 +1,115 @@
+body {
+	font-size: 12px;
+	font-family: 'Space Mono';
+	font-weight: 400;
+	color: #4A4A4A;
+}
+
+h1 {
+
+}
+
+h5 {
+	font-size: .75em;
+}
+
+p {
+	padding: 0;
+}
+
+table {
+	font-family: 'Space Mono';
+	font-weight: 400;
+	font-size: 1.3em;
+	border-spacing: 0;   
+	width: 100%;
+}
+
+table tr th {
+  width: 25%;
+}
+
+th { 
+	font-weight: 700;
+	font-size: 1em;
+	padding: 1em;
+}
+
+td {
+	font-weight: 400;
+	font-size: 1.25em;
+	padding: .5em 0 .5em 1em;
+}
+
+.device-image {
+	height: 45px;
+	width: 45px;
+	margin: 0 0 0 1.5em;
+}
+
+#footer{
+    font-size: 1.1em;
+    line-height: .5em;
+    width: 100%;
+    text-align: center;
+    margin: 3em 0 0 0;
+    bottom: 0;
+}
+
+.sideboard {
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 1;
+  right: 0;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.step-count {
+	font-family: 'Open Sans';
+	font-size: 5em;
+	line-height: 1em;
+	margin: 0 auto;
+}
+
+.table {
+
+}
+
+.table thead th {
+	border: none;
+	background-color: #FBFBFB;
+}
+
+.table td, .table th {
+	vertical-align: middle;
+	border-top: none;
+}	
+
+#table-footer {
+	font-size: .85em;
+}
+
+.team-counter {
+	font-size: 2em;
+	margin: 3em auto 2em auto;
+}
+
+.team-1, .team-2 {
+	margin: 1em;
+}
+
+.team-name {
+	font-size: .75em;
+	margin: 0 auto;
+}
+
+.tracker-table {
+	margin: 0 auto;
+}
