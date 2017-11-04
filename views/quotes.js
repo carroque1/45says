@@ -1,5 +1,5 @@
 window.onload=printQuote;
-var timer = window.setInterval(printQuote, 8000);
+var timer = window.setInterval(printQuote, 9000);
 var timerEnabled = true;
 
 //quote data
@@ -91,7 +91,7 @@ var timerEnabled = true;
 	    },
 		{
 	    	quote:"\"We can’t have someone in the Oval Office who doesn’t understand the meaning of the word ‘confidential.’\"",
-	    	source: "Campaign Rally (Greenville, NC), 2016",
+	    	source: "Campaign rally (Greenville, NC), 2016",
 	    	link: "https://www.youtube.com/watch?v=3ghSPPLdFYE"
 	    },
 	    {
@@ -111,7 +111,7 @@ var timerEnabled = true;
 	    },
 	    {
 	    	quote:"\"There’s nobody that understands the horror of nuclear better than me.\"",
-	    	source: "Campaign Rally (Atlanta, GA), 2016",
+	    	source: "Campaign rally (Atlanta, GA), 2016",
 	    	link: "https://www.youtube.com/watch?v=h7JYuVEAqEQ"
 	    },
 	   	{
@@ -121,7 +121,7 @@ var timerEnabled = true;
 	    },
 	    {
 	    	quote:"\"You know, if you’re a conservative Republican, if I were a liberal, if, like, OK, if I ran as a liberal Democrat, they would say I'm one of the smartest people anywhere in the world.\"",
-	    	source: "Campaign Rally (Sun City, SC), 2015",
+	    	source: "Campaign rally (Sun City, SC), 2015",
 	    	link: "http://www.snopes.com/donald-trump-sentence/"
 	    },
 	    {
@@ -151,7 +151,7 @@ var timerEnabled = true;
 	    },
 	    {
 	    	quote:"\"I know words, I have the best words.\"",
-	    	source: "Campaign Rally (Hilton Head, SC), 2015",
+	    	source: "Campaign rally (Hilton Head, SC), 2015",
 	    	link: "https://www.youtube.com/watch?v=7UIE_MRAhEA"
 	    },
 	    {
@@ -166,12 +166,12 @@ var timerEnabled = true;
 	    },
 	    {
 	    	quote:"\"Knock the crap out of him. I promise you I'll pay for the legal fees.\"",
-	    	source: "Campaign Rally (Cedar Rapids, IA), 2016",
+	    	source: "Campaign rally (Cedar Rapids, IA), 2016",
 	    	link: "http://time.com/4203094/donald-trump-hecklers/"
 	    },
 	    {
 	    	quote:"\"I have the most loyal people. I could stand in the middle of 5th Avenue and shoot somebody and wouldn't lose any voters.\"",
-	    	source: "Campaign Rally (Sioux Center, IA), 2016",
+	    	source: "Campaign rally (Sioux Center, IA), 2016",
 	    	link: "http://thehill.com/blogs/ballot-box/gop-primaries/266809-trump-i-could-shoot-people-in-streets-and-not-lose-support"
 	    },
 	    {
@@ -193,11 +193,6 @@ var timerEnabled = true;
 	    	quote:"\"Ted Nugent was obviously using a figure of speech [when threatening Barack Obama], unfortunate as it was.\"",
 	    	source: "Twitter, 2012",
 	    	link: "https://twitter.com/realdonaldtrump/status/193051919260979201"
-	    },
-	    {
-	    	quote:"\"Crooked Hillary Clinton and her team \"were extremely careless in their handling of very sensitive, highly classified information.\" Not fit!\"",
-	    	source: "Twitter, 2016",
-	    	link: "https://twitter.com/realdonaldtrump/status/750648675186147328?lang=en"
 	    },
 	    {
 	    	quote:"\"I am not trying to get \"top level security clearance\" for my children. This was a typically false news story.\"",
@@ -236,7 +231,7 @@ var timerEnabled = true;
 	    },
 	  	{
 	    	quote:"\"Wikileaks! I love Wikileaks.\"",
-	    	source: "Campaign Rally (Wilkes Barre, PA), 2016",
+	    	source: "Campaign rally (Wilkes Barre, PA), 2016",
 	    	link: "http://thehill.com/blogs/blog-briefing-room/news/330052-wikileaks-reminds-trump-of-time-he-said-i-love-wikileaks"
 	    },
 	    {
@@ -267,7 +262,7 @@ var timerEnabled = true;
 	   	{
 	    	quote:"\"If I had been the son of a coal miner, I would have left the damn mines. But most people don’t have the imagination — or whatever — to leave their mine. They don’t have “it.”.\"",
 	    	source: "Playboy Interview, 1990",
-	    	link: ""
+	    	link: "http://time.com/4802350/donald-trump-coal-miners-paris-accords/"
 	    },
 	   	{
 	    	quote:"\"Your reputation is amazing. I will not let you [Alex Jones] down.\"",
@@ -276,12 +271,12 @@ var timerEnabled = true;
 	    },
 	   	{
 	    	quote:"\"We're thinking about building the wall as a solar wall...Pretty good imagination, right? Good? My idea.\"",
-	    	source: "Campaign Rally (Cedar Rapids, IA), 2017",
+	    	source: "Campaign rally (Cedar Rapids, IA), 2017",
 	    	link: "http://fortune.com/2017/06/23/fact-checking-donald-trump-solar-powered-wall/"
 	    },
 	   	{
 	    	quote:"\"I love all people - rich or poor - but in those particular positions, I just don't want a poor person.\"",
-	    	source: "Campaign Rally (Cedar Rapids, IA), 2017",
+	    	source: "Campaign rally (Cedar Rapids, IA), 2017",
 	    	link: "http://www.cnn.com/2017/06/22/politics/donald-trump-poor-person-cabinet/index.html"
 	    },
 	   	{
@@ -299,11 +294,6 @@ var timerEnabled = true;
 	    	source: "Twitter, 2017",
 	    	link: "https://twitter.com/realDonaldTrump/status/877932956458795008?ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fwww.pbs.org%2Fnewshour%2Frundown%2Ftrump-twitter-not-make-not-recorded-conversations-comey%2F"
 	    },	    
-	    {
-	    	quote:"\"Grab ’em by the pussy. You can do anything.\"",
-	    	source: "Access Hollywood, 2005",
-	    	link: "https://www.nytimes.com/2016/10/08/us/donald-trump-tape-transcript.html"
-		},
 		{
 			quote:"\"I just start kissing them. It’s like a magnet. Just kiss. I don’t even wait. And when you’re a star, they let you do it. You can do anything.\"",
 	    	source: "Access Hollywood, 2005",
@@ -354,17 +344,76 @@ var timerEnabled = true;
 			source: "Hurricane Harvey visit (Corpus Christi, TX), 2017",
 	    	link: "https://www.youtube.com/watch?v=UmcV8v8iboE"
 		},
-		{
-			quote: "\"[Hurricane Irma] looks like it could be something that will be not good. Believe me, not good.\"",
-			source: "White House, 2017",
-	    	link: "http://thehill.com/homenews/administration/349422-trump-on-hurricane-irma-not-good"
-	    },
 	    {
-			quote: "\"Windmills are the greatest threat in the US to both bald and golden eagles. Media claims fictional ‘global warming’ is worse.\"",
+			quote: "\"Windmills are the greatest threat in the US to both, bald and golden eagles. Media claims fictional ‘global warming’ is worse.\"",
 			source: "Twitter, 2014",
 	    	link: "https://twitter.com/realdonaldtrump/status/509436043368873984"
 	    },
-
+	   	{
+			quote: "\"I do respect [Putin]...You think our country's so innocent?\"",
+			source: "Bill O'Reilly Interview, 2017",
+	    	link: "http://www.cnn.com/2017/02/04/politics/donald-trump-vladimir-putin/index.html"
+	    },
+	    {
+			quote: "\"I have plenty of time on my hands.\"",
+			source: "Joint Press Conference with Spain, 2017",
+	    	link: "http://www.cnn.com/2017/09/26/politics/donald-trump-nfl-preoccupied/index.html?sr=fbCNN092617donald-trump-nfl-preoccupied0230PMStory"
+	    },
+	   	{
+			quote: "\"[Puerto Rico] is an island, sitting in the middle of an ocean. It's a big ocean. It's a very big ocean.\"",
+			source: "Remarks in the Roosevelt Room, 2017",
+	    	link: "http://www.cnn.com/2017/09/26/politics/donald-trump-puerto-rico-visit/index.html"
+	    },
+	    {
+			quote: "\"I guarantee you I have a vocabulary better than all of them, certainly most of them.\"",
+			source: "Campaign rally (Burlington, VT), 2016",
+	    	link: "http://www.msnbc.com/transcripts/hardball/2016-01-07"
+	    },
+	    {
+			quote: "\"If Putin likes me and he thinks I'm a good, smart person, I hope he believes it.\"",
+			source: "Campaign rally (Cedar Rapids, IA), 2015",
+	    	link: "https://www.cbsnews.com/news/donald-trump-vladimir-putin-praise-good-thing/"
+	    },
+	    {
+			quote: "\"I'm not a big e-mail person. You know why? I'm intelligent. I know about e-mail.\"",
+			source: "Campaign rally (Colorado Springs,CO), 2016",
+	    	link: "http://transcripts.cnn.com/TRANSCRIPTS/1607/29/sitroom.01.html"
+	    },
+		{
+	    	quote: "\"I think I have the best temperament, or one of the best temperaments, of anyone who has ever run for president.\"",
+			source: "Campaign rally (Colorado Springs,CO), 2016",
+	    	link: "http://transcripts.cnn.com/TRANSCRIPTS/1607/29/sitroom.01.html"
+	    },
+		{
+	    	quote: "\"Don’t ask [Vice President Mike Pence] — he wants to hang [all gay people]!\"",
+			source: "White House meeting, 2017",
+	    	link: "https://www.newyorker.com/magazine/2017/10/23/the-danger-of-president-pence/amp"
+		},
+		{
+	    	quote: "\"Why is @BarackObama constantly issuing executive orders that are major power grabs of authority?\"",
+			source: "Twitter, 2012",
+	    	link: "https://twitter.com/realdonaldtrump/status/222739756105207808?lang=en"
+		},
+		{
+	    	quote: "\"They sacrifice every day for the furniture -- and future of their children.\"",
+			source: "Values Voter Summit, 2017",
+	    	link: "https://www.youtube.com/watch?v=vZzUbL5Yqhk&feature=youtu.be&t=28m7s"
+		},
+		{
+	    	quote: "\"If you run for president, you shouldn't be allowed to use teleprompters. Because you don't even know if the guy is smart.\"",
+			source: "Campaign rally (Norcross, GA), 2015",
+	    	link: "http://www.cnn.com/2016/03/21/politics/trump-teleprompter-aipac-speech/index.html"
+		},
+		{
+	    	quote: "\"Another historic step toward future development and future — with a — a future — with a future. A real future. I have to say, that's a real future.\"",
+			source: "Executive Order Signing, 2017",
+	    	link: "https://youtu.be/RoAhaLYAO5g?t=5m11s"
+		},
+		{
+	    	quote: "\"If I knew they had these teleprompters, I would have used them. I'm starting to love these teleprompters\"",
+			source: "Western Conservative Summit (Denver, CO), 2016",
+	    	link: "http://thehill.com/blogs/ballot-box/presidential-races/286289-trump-im-starting-to-love-these-teleprompters"
+		},
 	];
 
 // Stores indices for used quotes

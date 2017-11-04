@@ -4,63 +4,77 @@
         background-color: #FEFEFE;
         font-family: "Cormorant Garamond", serif; 
         line-height: 1.1;
-}    
+}
+
     h1 {
         font-size: 2em;
         margin-bottom: 0;
 }
+
     h2 {
         font-size: 1.6em;
 }
+
     h3 {
         font-size: 1.3em;
 
 }
+
     h4 {
         font-size: 1.25em; 
 }
+
     h5 {
         font-family: "Helvetica";
         font-size: .75em;
         color: #D6D6D6;
 }
+
     h6 {  
         font-size: .7em;
 }
+
     a {
         display:inline-grid;
         color:#4A4A4A;
         text-decoration:none;
 }
+
     a:hover {
         color:#FF596E;
         text-decoration: none;
         cursor: pointer;
 }
+
     a:active {
         color:#FF596E;
         text-decoration: none;
 }
+
     hr {
         display: block;
         color: #9B9B9B;
         height: 1px;
-        width: 95%;
+        width: 80%;
         border-top: 3px double #9B9B9B;
-        margin: 0;
+        margin: 0 auto;
         padding: 1%;
 }
+
     mark {
         background-color: #FFED0B;
         transform: skewY(-5deg) rotate(4deg);
 }
+
     nav {
         display: inline;
         color: #4A4A4A;
 }
+
     p {
         margin-bottom: 0;
 }
+
     .btn {
         font-family: "Cormorant Garamond";
         color: #9B9B9B;
@@ -68,15 +82,16 @@
         text-decoration: none;
         padding: 1%;
 }
+
     .btn:hover {
         text-decoration: none;
         cursor: pointer;
 }
-    #charity-header{
+    #charity-header { 
         text-align: left;
         padding: 3% 0 0 0;
 }
-    #charity-name{
+    #charity-name {
         font-family: "Helvetica";
         font-size: 1.1vw; 
         line-height: 1.1em;
@@ -84,7 +99,7 @@
         margin: 20px 0 0 0;
         text-transform: uppercase;
 }
-    #charity-info{
+    #charity-info {
         font-family: "Courier New";
         font-size: 1.1vw; 
         line-height: 1.1em;
@@ -93,36 +108,43 @@
 }
     .card {
         content: "";
-        min-height: 15em;
+        max-height: 18em;
         max-width: 40em;
         position: relative;
         border-radius: 2px;
-        background: #FFFBF6;
-        vertical-align: left;
-        margin-top: 2%;
+        background: #FFFEFB;
         float: none; 
         box-shadow: 1px 2px 3px -1px rgba(0,0,0,0.35);
+        margin: 2em 0 2em 0;
+        z-index: 1;
 }
-    #date {
-        font-family: 'Cormorant Garamond', serif; 
-        font-weight: 200;
+
+    .date {
+        font-family: 'Cormorant Garamond', serif;
+        font-size: .85em; 
+        font-weight: 400;
         color: #9B9B9B;
-        text-align: center;
         text-transform: uppercase;
-        margin-bottom: 3%;
+        margin: 0 auto;
+        padding: .5em;
 }
-    .ellipsis {
-        overflow: hidden;
-        display: -webkit-box;
-        -webkit-line-clamp: 7;
-        -webkit-box-orient: vertical;
+
+    .multiline-ellipsis {
+      display: block;
+      display: -webkit-box;
+      max-width: 90%;
+      max-height: 300px;
+      -webkit-line-clamp: 8;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin: 0 auto;
 }
 
     #nav-badge{
         height: 60px;
         width: 60px;
         object-fit: contain;
-        margin: 0 auto;
+        margin: 0 auto 1.5em auto;
 }
     /* Below changes the left padding of "A Record..." header */
     .padded-multiline h2 {
@@ -130,7 +152,7 @@
         line-height: 1.1em;
         font-family: "Helvetica";
         color: #4A4A4A;
-        margin: -1em 0 0 0;
+        margin: -2em 0 0 0;
         position: relative;
         z-index: 3;
         transform: skewY(-4deg) skewX(4deg) rotate(2deg);
@@ -144,32 +166,33 @@
 
 }
     #quote-box {
-        max-width: 78%;
-        min-height: 120px;
+        max-width: 67%;
+        min-height: 150px;
         text-align: center;
         margin: 0 auto; 
-        padding: 3em 0 3em 0;
+        padding: 3em 0 1em 0;
 }
     #quote{
         vertical-align: middle;
-        font-size: 1.2em;
+        font-size: 1.1em;
         font-family: "Georgia"; 
         font-weight: 300;
         font-style: italic;
 }
-    .rip-footer { 
-        background: url(/images/bottom.svg);
-        position:absolute;
-        bottom:0;
-        width:100%;
-}
-    .sections{
-        width: 100%;
 
+    .sections {
+        font-size: .7em; 
+        font-family: "Helvetica";
+        font-weight: 400;
+        color: #9B9B9B;
+        text-transform: uppercase;
+        width: 100%;
+        margin: 2em 0 2em 4em;
+        opacity: .5;
 }
 
     #source {
-        font-size: 11px;
+        font-size: 12px;
         font-family: "Helvetica"; 
         font-weight: 400;
         margin: 0 auto;
@@ -190,32 +213,39 @@
         width: 100%; 
         padding: 10%;
 }
+
     #strikeout {
         position: relative;
 }
+
     #strikeout::after {
         border-bottom: 0.44em solid black;
         content: "";
         left: 0;
         position: absolute;
         top: 33%;
-        width: 100%;
+        width: 100%;t
         transform: skewY(-3deg) rotate(4deg);
 }
-    #transcript-header {
+
+    .transcript-header {
+        font-family: "Cormorant";
+        font-size: .8em;
         text-transform: uppercase;
-        text-align: center;
         font-weight: 700;
-        padding: 3% 0 0 0;
+        margin: 0 auto;
+        padding: 1.5em 0 0 0;
 }
+
     .transcript {
-        font-family: 'Baskerville';
-        width: 92%;
-        display: inline-block; 
+        font-family: "Baskerville";
+        width: 90%;
         letter-spacing: .1px;
-        line-height: 1.25;
-        padding: 4% 4% 0 4%;
+        line-height: 1.1;
+        margin: 0 auto;
+        padding: 1em;
 }
+
     .tooltips {
         position: relative;
         display: inline-block;
@@ -225,6 +255,7 @@
         font-weight: 800;
         letter-spacing: .5px;
 }
+
     .tooltips .tooltip-text {
         visibility: hidden;
         font-family: "Helvetica";
@@ -242,10 +273,12 @@
         z-index: 1;
         bottom: 100%;
 }
+
     .tooltips:hover .tooltip-text {
         visibility: visible;
         margin-bottom: 5px;
 }
+
     .tooltip .tooltip-text::after {
         content: " ";
         position: absolute;

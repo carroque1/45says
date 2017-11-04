@@ -45,6 +45,23 @@ module.exports = function(app, passport) {
 	}));
 
 	// =====================================
+	// TRANSCRIPT INPUT ==============================
+	// =====================================
+	// show the transcript input form
+	app.get('/copyinput', function(req, res) {
+
+		// render the page and pass in any flash data if it exists
+		res.render('copyinput.ejs', { message: req.flash('copyInputMessage') });
+	});
+
+	// process the transcript form
+	app.post('/copyinput', passport.authenticate('local-copyinput', {
+		
+		failureRedirect : '/copyinput', // redirect back to the signup page if there is an error
+		failureFlash : true // allow flash messages
+	}));	
+
+	// =====================================
 	// PROFILE SECTION =========================
 	// =====================================
 	// we will want this protected so you have to be logged in to visit
